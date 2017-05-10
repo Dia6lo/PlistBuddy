@@ -28,8 +28,9 @@
   <ItemGroup />
   <ItemGroup>
     <Compile Include="PlistBuddy.psd1" />
-    <Compile Include="PlistBuddy.psm1" />
+    <Compile Include="PlistBuddy.ps1" />
     <Compile Include="PlistBuddy.tests.ps1" />
+    <Compile Include="Test.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
